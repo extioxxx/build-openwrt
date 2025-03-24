@@ -20,6 +20,8 @@ echo "DISTRIB_SOURCECODE='Lienol'" >>package/base-files/files/etc/openwrt_releas
 #
 # ------------------------------- Main source ends -------------------------------
 
+echo 'src-git zm-we450 https://github.com/nighthawk149/openwrt' >>feeds.conf.default 
+
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
